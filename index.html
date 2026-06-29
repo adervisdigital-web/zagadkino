@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ЗАГАДКИНО — Металлические головоломки в деревянных коробках</title>
-  <meta name="description" content="Металлические головоломки ЗАГАДКИНО в деревянных коробках — кузница мышления для всей семьи. Развивающие наборы ручной работы. Купить на Ozon и Wildberries." />
-  <meta name="keywords" content="металлические головоломки, головоломки, головоломки купить, развивающие игрушки, загадкино" />
+  <title>ЗАГАДКИНО — Металлические головоломки оптом | Брендированные наборы для бизнеса</title>
+  <meta name="description" content="Оптовые поставки металлических головоломок в деревянных коробках. Брендирование с вашим логотипом, от 100 штук, производство 14 дней, доставка по России." />
+  <meta name="keywords" content="металлические головоломки оптом, корпоративные подарки, брендирование коробок, загадкино b2b" />
   <link rel="canonical" href="https://zagadkino.ru/" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="ЗАГАДКИНО — Металлические головоломки" />
-  <meta property="og:description" content="Кузница мышления. Металлические головоломки в деревянных коробках." />
+  <meta property="og:title" content="ЗАГАДКИНО — Металлические головоломки оптом" />
+  <meta property="og:description" content="Брендированные наборы для бизнеса. От 100 штук, 14 дней, ваш логотип на коробке." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ru_RU" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -51,23 +48,17 @@
   <header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-honey/20 transition-shadow duration-300">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
 
-      <!-- Logo -->
       <a href="index.html" class="flex items-center" aria-label="ЗАГАДКИНО — на главную">
         <img src="image/logo.png" alt="ЗАГАДКИНО" class="w-14 h-14 object-contain">
       </a>
 
-      <!-- Desktop nav -->
       <nav class="hidden md:flex items-center gap-6 font-nunito font-semibold text-sm" aria-label="Основная навигация">
-        <a href="#collection" class="text-brown hover:text-honey transition-colors">Коллекция</a>
-        <a href="#about" class="text-brown hover:text-honey transition-colors">О нас</a>
-        <button id="solutions-nav-btn" class="flex items-center gap-1.5 text-honey hover:text-honey-dark transition-colors font-semibold">
-          <img src="image/uzlik.png" alt="" class="w-5 h-5 object-contain" aria-hidden="true">
-          Решения
-        </button>
-        <a href="b2b.html" class="bg-brown text-cream px-5 py-2 rounded-full hover:bg-brown-light transition-colors">Для бизнеса</a>
+        <a href="#sets" class="text-brown hover:text-honey transition-colors">Наши наборы</a>
+        <a href="#branding" class="text-brown hover:text-honey transition-colors">Брендирование</a>
+        <a href="about.html" class="text-brown hover:text-honey transition-colors">О нас</a>
+        <a href="#form" class="bg-honey text-cream px-5 py-2 rounded-full hover:bg-honey-dark transition-colors">Оставить заявку</a>
       </nav>
 
-      <!-- Mobile burger -->
       <button id="menu-btn" class="md:hidden p-2 text-brown rounded-lg hover:bg-honey/10 transition-colors" aria-label="Открыть меню" aria-expanded="false">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
@@ -75,220 +66,89 @@
       </button>
     </div>
 
-    <!-- Mobile menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-cream border-t border-honey/20 px-4 pb-4">
       <nav class="flex flex-col gap-3 pt-4 font-nunito font-semibold text-sm">
-        <a href="#collection" class="text-brown hover:text-honey transition-colors py-1">Коллекция</a>
-        <a href="#about" class="text-brown hover:text-honey transition-colors py-1">О нас</a>
-        <button id="solutions-mobile-btn" class="text-left flex items-center gap-2 text-honey py-1">
-          <img src="image/uzlik.png" alt="" class="w-5 h-5 object-contain">
-          Решения головоломок
-        </button>
-        <a href="b2b.html" class="text-center bg-brown text-cream px-4 py-2.5 rounded-full hover:bg-brown-light transition-colors mt-1">Для бизнеса</a>
+        <a href="#sets" class="text-brown hover:text-honey transition-colors py-1">Наши наборы</a>
+        <a href="#branding" class="text-brown hover:text-honey transition-colors py-1">Брендирование</a>
+        <a href="about.html" class="text-brown hover:text-honey transition-colors py-1">О нас</a>
+        <a href="#form" class="text-center bg-honey text-cream px-4 py-2.5 rounded-full hover:bg-honey-dark transition-colors mt-1">Оставить заявку</a>
       </nav>
     </div>
   </header>
 
   <main>
 
-    <!-- ===== B2B ANNOUNCEMENT BAR ===== -->
-    <div class="pt-20">
-      <div class="bg-brown text-cream py-3 px-4">
-        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-center">
-          <div class="flex items-center gap-2.5">
-            <span class="w-2 h-2 rounded-full bg-honey flex-shrink-0 animate-pulse"></span>
-            <p class="font-comfortaa font-bold text-honey text-sm tracking-wide">Оптовые продажи</p>
-          </div>
-          <p class="font-nunito text-cream/75 text-sm">Брендированные наборы от 100 штук · ваш логотип на коробке · доставка по всей России</p>
-          <a href="b2b.html" class="flex-shrink-0 bg-honey text-brown font-semibold font-nunito text-xs px-5 py-2 rounded-full hover:bg-honey-dark hover:text-cream transition-all shadow-sm whitespace-nowrap">
-            Условия для бизнеса
-          </a>
-        </div>
-      </div>
-    </div>
-
     <!-- ===== HERO ===== -->
-    <section class="min-h-screen flex items-center bg-gradient-to-br from-cream via-cream to-honey/10 overflow-hidden relative">
-      <div class="absolute inset-0 opacity-[0.04] pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;" aria-hidden="true"></div>
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+    <section class="min-h-screen pt-20 flex items-center bg-gradient-to-br from-brown via-brown to-brown-light overflow-hidden relative">
+      <div class="absolute inset-0 pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;filter:invert(1);opacity:0.08;" aria-hidden="true"></div>
+
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-2 gap-12 items-center relative z-10">
 
         <!-- Text -->
-        <div class="order-2 md:order-1">
-          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-4 fade-in">Деревня мастеров</p>
-          <h1 class="font-comfortaa text-4xl sm:text-5xl lg:text-6xl font-bold text-brown leading-tight mb-6 fade-in">
-            Кузница<br>
-            <span class="text-gradient">мышления</span>
+        <div>
+          <div class="inline-flex items-center gap-2 bg-honey/15 border border-honey/30 text-honey text-xs font-semibold px-4 py-1.5 rounded-full mb-6 font-nunito tracking-wide fade-in">
+            <span class="w-1.5 h-1.5 rounded-full bg-honey animate-pulse"></span>
+            Производитель · Оптовые поставки
+          </div>
+          <h1 class="font-comfortaa text-4xl sm:text-5xl lg:text-6xl font-bold text-cream leading-tight mb-6 fade-in">
+            Головоломки<br>
+            <span class="text-gradient">оптом</span><br>
+            для бизнеса
           </h1>
-          <p class="font-nunito text-lg text-brown/75 leading-relaxed mb-8 max-w-lg fade-in">
-            Металлические головоломки в деревянных коробках.
-            Каждый набор собран с любовью в нашей мастерской.
-            Для тех, кто ценит настоящее.
+          <p class="font-nunito text-lg text-cream/70 leading-relaxed mb-8 max-w-lg fade-in">
+            Металлические головоломки в деревянных коробках с лазерной гравировкой вашего логотипа.
+            От 100 штук. Производство за 14 дней. Доставка по всей России.
           </p>
           <div class="flex flex-wrap gap-4 fade-in">
-            <a href="#collection" class="bg-honey text-cream font-semibold px-7 py-3.5 rounded-full hover:bg-honey-dark transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 inline-flex items-center gap-2">
-              Смотреть коллекцию
+            <a href="#form" class="bg-honey text-brown font-semibold px-7 py-3.5 rounded-full hover:bg-honey-dark hover:text-cream transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 inline-flex items-center gap-2">
+              Оставить заявку
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </a>
-            <a href="#about" class="border-2 border-brown text-brown font-semibold px-7 py-3.5 rounded-full hover:bg-brown hover:text-cream transition-all">
-              Наша история
+            <a href="#sets" class="border-2 border-cream/30 text-cream font-semibold px-7 py-3.5 rounded-full hover:border-honey hover:text-honey transition-all">
+              Смотреть наборы
             </a>
-          </div>
-
-          <!-- B2B teaser -->
-          <div class="mt-4 fade-in">
-            <a href="b2b.html" class="inline-flex items-center gap-2 text-brown/70 font-nunito text-sm hover:text-honey transition-colors group">
-              <span class="w-8 h-px bg-brown/30 group-hover:bg-honey group-hover:w-10 transition-all"></span>
-              Оптовым покупателям — отдельные условия
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-              </svg>
-            </a>
-          </div>
-
-          <!-- Stats -->
-          <div class="flex flex-wrap gap-6 mt-10 fade-in">
-            <div>
-              <p class="font-comfortaa text-3xl font-bold text-honey">50+</p>
-              <p class="font-nunito text-xs text-brown/55 mt-0.5">видов головоломок</p>
-            </div>
-            <div class="border-l border-honey/30 pl-6">
-              <p class="font-comfortaa text-3xl font-bold text-honey">1000+</p>
-              <p class="font-nunito text-xs text-brown/55 mt-0.5">довольных семей</p>
-            </div>
-            <div class="border-l border-honey/30 pl-6">
-              <p class="font-comfortaa text-3xl font-bold text-honey">100%</p>
-              <p class="font-nunito text-xs text-brown/55 mt-0.5">видеоинструкция в наборе</p>
-            </div>
           </div>
         </div>
 
-        <!-- Mascot Узлик — clickable -->
-        <div class="order-1 md:order-2 flex justify-center">
-          <div class="relative">
-            <div class="absolute inset-0 bg-honey/20 rounded-full scale-110 blur-3xl pointer-events-none"></div>
-
-            <!-- Speech bubble hint -->
-            <div class="solutions-bubble absolute -top-4 -right-6 bg-brown text-cream text-xs font-nunito font-semibold px-3 py-2 rounded-2xl rounded-bl-sm shadow-lg z-20 whitespace-nowrap pointer-events-none select-none" aria-hidden="true">
-              Знаю секреты всех загадок!
-              <div class="absolute bottom-0 left-4 translate-y-full w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-brown"></div>
-            </div>
-
-            <figure class="relative z-10 cursor-pointer" id="uzlik-btn" aria-label="Узлик — нажми, чтобы узнать решения головоломок" role="button" tabindex="0">
-              <img src="image/uzlik.png"
-                   alt="Узлик — маскот ЗАГАДКИНО. Нажми для решений"
-                   class="w-60 sm:w-72 md:w-80 lg:w-96 animate-float drop-shadow-xl hover:scale-105 transition-transform duration-300">
-              <figcaption class="text-center font-comfortaa text-brown/50 text-xs mt-2">
-                Нажми на Узлика ↑ чтобы узнать решения
-              </figcaption>
-            </figure>
-
-            <!-- Solutions button below mascot -->
-            <div class="flex justify-center mt-4">
-              <button id="solutions-hero-btn" class="solutions-trigger inline-flex items-center gap-2 bg-brown text-cream font-semibold font-nunito px-6 py-3 rounded-full hover:bg-brown-light transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-                Решения головоломок
-              </button>
-            </div>
+        <!-- Stats grid -->
+        <div class="grid grid-cols-2 gap-4 fade-in">
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 text-center">
+            <p class="font-comfortaa text-4xl font-bold text-honey mb-1">100</p>
+            <p class="font-nunito text-cream/65 text-sm">штук — минимальный<br>тираж</p>
+          </div>
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 text-center">
+            <p class="font-comfortaa text-4xl font-bold text-honey mb-1">14</p>
+            <p class="font-nunito text-cream/65 text-sm">дней — срок<br>производства</p>
+          </div>
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 text-center">
+            <p class="font-comfortaa text-4xl font-bold text-honey mb-1">3</p>
+            <p class="font-nunito text-cream/65 text-sm">формата<br>брендирования</p>
+          </div>
+          <div class="bg-honey rounded-2xl p-6 text-center">
+            <p class="font-comfortaa text-4xl font-bold text-brown mb-1">50+</p>
+            <p class="font-nunito text-brown/75 text-sm">видов<br>головоломок</p>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- ===== B2B TEASER ===== -->
-    <section class="py-16 sm:py-20 bg-gradient-to-br from-brown via-brown to-brown-light overflow-hidden relative">
-      <div class="absolute inset-0 pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;filter:invert(1);opacity:0.07;" aria-hidden="true"></div>
-
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
-
-        <!-- Header row -->
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 fade-in">
-          <div>
-            <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-3">Оптовым покупателям</p>
-            <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-cream leading-tight">
-              Брендируем коробки<br>под ваш бизнес
-            </h2>
-          </div>
-          <a href="b2b.html" class="flex-shrink-0 inline-flex items-center gap-2 bg-honey text-brown font-semibold font-nunito px-7 py-3.5 rounded-full hover:bg-honey-dark hover:text-cream transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-            Условия и заявка
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-            </svg>
-          </a>
-        </div>
-
-        <!-- Feature cards -->
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 stagger-children">
-
-          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 hover:bg-cream/15 transition-colors">
-            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
-              </svg>
-            </div>
-            <p class="font-comfortaa text-3xl font-bold text-honey mb-1">от 100</p>
-            <h3 class="font-comfortaa font-semibold text-cream text-sm mb-2">Минимальный тираж</h3>
-            <p class="font-nunito text-sm text-cream/55 leading-relaxed">Наборы из 12, 24 или 36 головоломок — в любой комбинации</p>
-          </div>
-
-          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 hover:bg-cream/15 transition-colors">
-            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-              </svg>
-            </div>
-            <p class="font-comfortaa text-3xl font-bold text-honey mb-1">14 дней</p>
-            <h3 class="font-comfortaa font-semibold text-cream text-sm mb-2">Срок производства</h3>
-            <p class="font-nunito text-sm text-cream/55 leading-relaxed">От согласования макета до отгрузки — под ключ</p>
-          </div>
-
-          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6 hover:bg-cream/15 transition-colors">
-            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>
-              </svg>
-            </div>
-            <p class="font-comfortaa text-3xl font-bold text-honey mb-1">3 формата</p>
-            <h3 class="font-comfortaa font-semibold text-cream text-sm mb-2">Лазерная гравировка</h3>
-            <p class="font-nunito text-sm text-cream/55 leading-relaxed">Простая, сложная или с авторской графикой на крышке</p>
-          </div>
-
-          <div class="bg-honey rounded-2xl p-6">
-            <div class="w-11 h-11 bg-brown/20 rounded-xl flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-              </svg>
-            </div>
-            <p class="font-comfortaa text-3xl font-bold text-brown mb-1">100%</p>
-            <h3 class="font-comfortaa font-semibold text-brown text-sm mb-2">Контроль качества</h3>
-            <p class="font-nunito text-sm text-brown/65 leading-relaxed">Каждый набор проходит ручную проверку перед отправкой</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== COLLECTION ===== -->
-    <section id="collection" class="py-20 bg-cream-dark">
+    <!-- ===== SETS ===== -->
+    <section id="sets" class="py-20 bg-cream-dark">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
         <div class="text-center mb-12 fade-in">
-          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Коллекция</p>
-          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown mb-4">Наши головоломки</h2>
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Продукция</p>
+          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown mb-4">Наши наборы</h2>
           <p class="font-nunito text-brown/65 max-w-xl mx-auto">
-            Металлические головоломки в деревянных коробках.
-            Разные уровни сложности — для детей и взрослых.
+            Металлические головоломки в деревянных коробках. Все наборы доступны для оптовых поставок с брендированием.
           </p>
         </div>
 
-        <!-- Product grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
 
-          <!-- Card 1 -->
           <article class="bg-cream rounded-2xl overflow-hidden card-hover shadow-sm border border-honey/10">
             <div class="bg-cream-dark aspect-square flex items-center justify-center p-4">
               <img src="image/nabor1.jpg" alt="Набор №1 — 12 металлических головоломок в деревянной коробке" class="w-full h-full object-contain">
@@ -298,14 +158,12 @@
                 <h3 class="font-comfortaa font-bold text-brown text-lg">Набор №1</h3>
                 <span class="text-xs bg-honey/15 text-honey-dark font-semibold px-2 py-0.5 rounded-full">12 штук</span>
               </div>
-              <p class="font-comfortaa text-2xl font-bold text-honey mb-2">800 ₽</p>
-              <p class="font-nunito text-sm text-brown/60 leading-relaxed">
-                Готовый набор из 12 случайных металлических головоломок в деревянной коробке. Видеоинструкция по сборке.
-              </p>
+              <p class="font-comfortaa text-2xl font-bold text-honey mb-1">800 ₽</p>
+              <p class="font-nunito text-xs text-brown/45 mb-3">розничная цена · оптовая — по запросу</p>
+              <p class="font-nunito text-sm text-brown/60 leading-relaxed">12 металлических головоломок в деревянной коробке. Видеоинструкция в комплекте.</p>
             </div>
           </article>
 
-          <!-- Card 2 -->
           <article class="bg-cream rounded-2xl overflow-hidden card-hover shadow-sm border border-honey/10">
             <div class="bg-cream-dark aspect-square flex items-center justify-center p-4">
               <img src="image/nabor2.jpg" alt="Набор №2 — 24 металлические головоломки в деревянной коробке" class="w-full h-full object-contain">
@@ -315,14 +173,12 @@
                 <h3 class="font-comfortaa font-bold text-brown text-lg">Набор №2</h3>
                 <span class="text-xs bg-brown/10 text-brown font-semibold px-2 py-0.5 rounded-full">24 штуки</span>
               </div>
-              <p class="font-comfortaa text-2xl font-bold text-honey mb-2">1 150 ₽</p>
-              <p class="font-nunito text-sm text-brown/60 leading-relaxed">
-                Готовый набор из 24 случайных металлических головоломок в деревянной коробке. Широкий выбор форм и уровней.
-              </p>
+              <p class="font-comfortaa text-2xl font-bold text-honey mb-1">1 150 ₽</p>
+              <p class="font-nunito text-xs text-brown/45 mb-3">розничная цена · оптовая — по запросу</p>
+              <p class="font-nunito text-sm text-brown/60 leading-relaxed">24 металлические головоломки в деревянной коробке. Широкий выбор форм и уровней.</p>
             </div>
           </article>
 
-          <!-- Card 3 -->
           <article class="bg-cream rounded-2xl overflow-hidden card-hover shadow-sm border border-honey/10 sm:col-span-2 lg:col-span-1">
             <div class="bg-cream-dark aspect-square flex items-center justify-center p-4">
               <img src="image/nabor3.jpg" alt="Набор №3 — 36 металлических головоломок в деревянной коробке" class="w-full h-full object-contain">
@@ -332,144 +188,385 @@
                 <h3 class="font-comfortaa font-bold text-brown text-lg">Набор №3</h3>
                 <span class="text-xs bg-honey/15 text-honey-dark font-semibold px-2 py-0.5 rounded-full">36 штук</span>
               </div>
-              <p class="font-comfortaa text-2xl font-bold text-honey mb-2">1 500 ₽</p>
-              <p class="font-nunito text-sm text-brown/60 leading-relaxed">
-                Готовый набор из 36 случайных металлических головоломок в деревянной коробке. Полная коллекция — идеальный подарок для всей семьи.
-              </p>
+              <p class="font-comfortaa text-2xl font-bold text-honey mb-1">1 500 ₽</p>
+              <p class="font-nunito text-xs text-brown/45 mb-3">розничная цена · оптовая — по запросу</p>
+              <p class="font-nunito text-sm text-brown/60 leading-relaxed">36 металлических головоломок. Полная коллекция — идеальный подарок для партнёров.</p>
             </div>
           </article>
         </div>
+
+        <div class="text-center mt-10 fade-in">
+          <p class="font-nunito text-brown/50 text-sm mb-4">Оптовая цена и условия поставки — в ответ на вашу заявку</p>
+          <a href="#form" class="inline-flex items-center gap-2 font-nunito font-semibold text-honey hover:text-honey-dark transition-colors group">
+            Запросить прайс-лист
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- ===== ABOUT ===== -->
-    <section id="about" class="py-20 bg-cream overflow-hidden">
+    <!-- ===== BRANDING ===== -->
+    <section id="branding" class="py-20 bg-cream">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
-        <!-- Header -->
-        <div class="text-center mb-14 fade-in">
-          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-3">О нашем мире</p>
-          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown mb-5">
-            Семья мастеров<br>из Деревни загадок
-          </h2>
-          <p class="font-nunito text-brown/70 leading-relaxed max-w-2xl mx-auto">
-            «Загадкино» — семейная мастерская, где каждая головоломка создаётся с душой.
-            Мы верим, что металлическая головоломка в руках — это не просто игрушка,
-            это разговор между разумом и металлом. Каждый набор в деревянной коробке проходит через
-            наши руки, прежде чем попасть в ваши.
+        <div class="text-center mb-12 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Нанесение логотипа</p>
+          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown mb-4">Три варианта гравировки на крышку</h2>
+          <p class="font-nunito text-brown/65 max-w-xl mx-auto">Цена указана дополнительно к стоимости набора. Нанесение лазерной гравировкой на деревянную крышку.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 stagger-children">
+
+          <div class="bg-cream-dark border border-honey/15 rounded-2xl p-7 card-hover">
+            <div class="flex items-start justify-between mb-5">
+              <div class="w-14 h-14 bg-honey/20 rounded-2xl flex items-center justify-center flex-shrink-0 font-comfortaa font-bold text-honey text-2xl select-none">Аа</div>
+              <div class="text-right">
+                <p class="font-comfortaa text-2xl font-bold text-honey">+35 ₽</p>
+                <p class="font-nunito text-xs text-brown/50">за штуку</p>
+              </div>
+            </div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-3">Простая гравировка</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed mb-5">Текст или простой логотип без мелких деталей. Быстро и чётко.</p>
+            <ul class="space-y-2 font-nunito text-sm text-brown/70">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Название компании / слоган</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Логотип до 3 элементов</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Срок подготовки: +2 дня</li>
+            </ul>
+          </div>
+
+          <div class="bg-brown text-cream rounded-2xl p-7 card-hover">
+            <div class="flex justify-end mb-3">
+              <span class="bg-honey text-brown text-xs font-bold px-3 py-1 rounded-full font-nunito">Популярно</span>
+            </div>
+            <div class="flex items-start justify-between mb-5">
+              <div class="w-14 h-14 bg-honey/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-honey" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              <div class="text-right">
+                <p class="font-comfortaa text-2xl font-bold text-honey">+65 ₽</p>
+                <p class="font-nunito text-xs text-cream/50">за штуку</p>
+              </div>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey text-xl mb-3">Сложная гравировка</h3>
+            <p class="font-nunito text-sm text-cream/70 leading-relaxed mb-5">Детальный логотип с несколькими элементами, тонкими линиями и фирменными знаками.</p>
+            <ul class="space-y-2 font-nunito text-sm text-cream/75">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Сложный фирменный знак</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Несколько надписей и блоков</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Согласование макета</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Срок подготовки: +3 дня</li>
+            </ul>
+          </div>
+
+          <div class="bg-cream-dark border border-honey/15 rounded-2xl p-7 card-hover">
+            <div class="flex items-start justify-between mb-5">
+              <div class="w-14 h-14 bg-honey/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"/>
+                </svg>
+              </div>
+              <div class="text-right">
+                <p class="font-comfortaa text-2xl font-bold text-honey">+100 ₽</p>
+                <p class="font-nunito text-xs text-brown/50">за штуку</p>
+              </div>
+            </div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-3">С добавлением графики</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed mb-5">Уникальный дизайн с паттерном, иллюстрациями и полным оформлением крышки.</p>
+            <ul class="space-y-2 font-nunito text-sm text-brown/70">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Разработка уникального дизайна</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Паттерн и иллюстрации</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>3 правки бесплатно</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-honey rounded-full flex-shrink-0"></span>Срок подготовки: +5 дней</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SHOWCASE ===== -->
+    <section class="py-16 bg-cream-dark">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-10 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Пример</p>
+          <h2 class="font-comfortaa text-3xl font-bold text-brown mb-3">Как выглядит готовая коробка</h2>
+          <p class="font-nunito text-brown/65">Лазерная гравировка логотипа на крышке деревянной коробки с металлическими головоломками</p>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-8 items-stretch fade-in">
+          <div class="bg-cream rounded-2xl overflow-hidden shadow-sm border border-honey/10 flex flex-col">
+            <div class="flex-1 flex items-center justify-center p-6">
+              <img src="image/korobka_logo.jpg" alt="Готовая коробка с нанесённым логотипом" class="max-h-72 w-full object-contain">
+            </div>
+            <p class="font-nunito text-sm text-brown/55 text-center pb-4">Готовый результат — коробка с гравировкой</p>
+          </div>
+          <div class="bg-cream rounded-2xl shadow-sm border border-honey/10 flex flex-col">
+            <div class="flex-1 flex items-center justify-center p-8 bg-brown/5 rounded-t-2xl">
+              <img src="image/print%20korobka.png" alt="Макет для нанесения логотипа" class="max-h-56 w-full object-contain">
+            </div>
+            <div class="p-5">
+              <h3 class="font-comfortaa font-bold text-brown mb-1">Исходный макет</h3>
+              <p class="font-nunito text-sm text-brown/60">Вы присылаете логотип — мы адаптируем под формат гравировки и согласовываем макет перед тиражом</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="py-20 bg-brown overflow-hidden relative">
+      <div class="absolute inset-0 pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;filter:invert(1);opacity:0.07;" aria-hidden="true"></div>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+
+        <div class="text-center mb-12 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Почему ЗАГАДКИНО</p>
+          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-cream mb-4">Компании выбирают нас</h2>
+          <p class="font-nunito text-cream/60 max-w-xl mx-auto">Не просто подарок — инструмент для команды и память о вашем бренде</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6">
+            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey mb-2">Ручная работа</h3>
+            <p class="font-nunito text-sm text-cream/60 leading-relaxed">Каждый набор проходит ручную проверку качества. 100% контроль перед отправкой.</p>
+          </div>
+
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6">
+            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey mb-2">14 дней</h3>
+            <p class="font-nunito text-sm text-cream/60 leading-relaxed">От утверждения макета до отгрузки. Без срывов дедлайнов — работаем чётко.</p>
+          </div>
+
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6">
+            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey mb-2">Документы</h3>
+            <p class="font-nunito text-sm text-cream/60 leading-relaxed">Договор, счёт, акт, декларация соответствия. Всё для бухгалтерии — в день отгрузки.</p>
+          </div>
+
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6">
+            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey mb-2">Уникальный подарок</h3>
+            <p class="font-nunito text-sm text-cream/60 leading-relaxed">Запоминается, не выбрасывается. Живёт на столе — работает на ваш бренд месяцами.</p>
+          </div>
+
+          <div class="bg-cream/10 border border-cream/15 rounded-2xl p-6">
+            <div class="w-11 h-11 bg-honey/25 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-honey" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-honey mb-2">Доставка по России</h3>
+            <p class="font-nunito text-sm text-cream/60 leading-relaxed">Транспортными компаниями в любой регион. Страхование груза включено.</p>
+          </div>
+
+          <div class="bg-honey rounded-2xl p-6">
+            <div class="w-11 h-11 bg-brown/20 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+              </svg>
+            </div>
+            <h3 class="font-comfortaa font-bold text-brown mb-2">Эко-материалы</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed">Сертифицированная древесина, стальные детали. Безопасно для детей, подходит для ESG-отчётности.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="py-20 bg-cream">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Процесс</p>
+          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown">Как мы работаем</h2>
+        </div>
+
+        <ol class="relative border-l-2 border-honey/30 ml-4 sm:ml-8 space-y-10 fade-in">
+          <li class="ml-10">
+            <div class="absolute -left-4 w-8 h-8 bg-honey rounded-full flex items-center justify-center font-comfortaa font-bold text-cream text-sm shadow-md">1</div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-1">Заявка</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed max-w-lg">Заполните форму ниже или напишите нам напрямую. Уточним тираж, сроки и задачи — ответим в течение 24 часов.</p>
+          </li>
+          <li class="ml-10">
+            <div class="absolute -left-4 w-8 h-8 bg-honey rounded-full flex items-center justify-center font-comfortaa font-bold text-cream text-sm shadow-md">2</div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-1">Согласование макета</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed max-w-lg">Готовим дизайн-макет с вашим брендингом и отправляем на утверждение. До 3 правок бесплатно.</p>
+          </li>
+          <li class="ml-10">
+            <div class="absolute -left-4 w-8 h-8 bg-honey rounded-full flex items-center justify-center font-comfortaa font-bold text-cream text-sm shadow-md">3</div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-1">Производство</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed max-w-lg">Запускаем после предоплаты 50%. Вы получаете фото с каждого этапа производства.</p>
+          </li>
+          <li class="ml-10">
+            <div class="absolute -left-4 w-8 h-8 bg-honey rounded-full flex items-center justify-center font-comfortaa font-bold text-cream text-sm shadow-md">4</div>
+            <h3 class="font-comfortaa font-bold text-brown text-xl mb-1">Доставка и документы</h3>
+            <p class="font-nunito text-sm text-brown/65 leading-relaxed max-w-lg">Отправляем транспортной компанией. Закрывающие документы — в день отгрузки.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="py-20 bg-cream-dark">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Отзывы</p>
+          <h2 class="font-comfortaa text-3xl font-bold text-brown">Говорят наши партнёры</h2>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-6 stagger-children">
+          <blockquote class="bg-cream rounded-2xl p-6 border border-honey/15 card-hover">
+            <div class="flex gap-1 mb-4">
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="font-nunito text-sm text-brown/75 italic leading-relaxed mb-4">«Подарили партнёрам на Новый год — все спрашивали, где достали. Теперь закупаем ежегодно.»</p>
+            <cite class="font-comfortaa text-sm font-bold text-brown not-italic">ООО «ПромСталь»</cite>
+            <p class="font-nunito text-xs text-brown/40 mt-0.5">Тираж 200 шт., брендирование</p>
+          </blockquote>
+          <blockquote class="bg-cream rounded-2xl p-6 border border-honey/15 card-hover">
+            <div class="flex gap-1 mb-4">
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="font-nunito text-sm text-brown/75 italic leading-relaxed mb-4">«Использовали как командный тренинг — результат превзошёл ожидания. Дешевле коуча, эффективнее.»</p>
+            <cite class="font-comfortaa text-sm font-bold text-brown not-italic">HR-директор, IT-компания</cite>
+            <p class="font-nunito text-xs text-brown/40 mt-0.5">Тираж 80 шт., опт</p>
+          </blockquote>
+          <blockquote class="bg-cream rounded-2xl p-6 border border-honey/15 card-hover">
+            <div class="flex gap-1 mb-4">
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="w-4 h-4 text-honey fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="font-nunito text-sm text-brown/75 italic leading-relaxed mb-4">«Производство за 12 дней, документы без задержек. Профессиональный подход — рекомендую.»</p>
+            <cite class="font-comfortaa text-sm font-bold text-brown not-italic">ТД «Подарки Урала»</cite>
+            <p class="font-nunito text-xs text-brown/40 mt-0.5">Тираж 500 шт., опт</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORM ===== -->
+    <section id="form" class="py-20 bg-cream">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-10 fade-in">
+          <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-2">Контакт</p>
+          <h2 class="font-comfortaa text-3xl md:text-4xl font-bold text-brown mb-3">Оставьте заявку</h2>
+          <p class="font-nunito text-brown/65">Ответим в течение 24 часов в рабочие дни. Без обязательств — просто обсудим детали.</p>
+        </div>
+
+        <form id="b2b-form" novalidate class="bg-cream-dark rounded-3xl p-8 shadow-sm border border-honey/10 fade-in" aria-label="Форма заявки">
+
+          <div class="grid sm:grid-cols-2 gap-5 mb-5">
+            <div>
+              <label for="company" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Название компании <span class="text-honey" aria-hidden="true">*</span></label>
+              <input type="text" id="company" name="company" required placeholder="ООО «Ваша компания»" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream placeholder-brown/30 transition-colors"/>
+            </div>
+            <div>
+              <label for="industry" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Сфера деятельности</label>
+              <select id="industry" name="industry" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream transition-colors appearance-none">
+                <option value="">Выберите сферу...</option>
+                <option value="manufacturing">Производство / Заводы</option>
+                <option value="retail">Ритейл / Торговля</option>
+                <option value="it">IT / Технологии</option>
+                <option value="education">Образование</option>
+                <option value="horeca">HoReCa</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-5 mb-5">
+            <div>
+              <label for="volume" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Тираж (штук) <span class="text-honey" aria-hidden="true">*</span></label>
+              <select id="volume" name="volume" required class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream transition-colors appearance-none">
+                <option value="">Выберите тираж...</option>
+                <option value="100-300">100–300 штук</option>
+                <option value="300-1000">300–1000 штук</option>
+                <option value="1000+">Более 1000 штук</option>
+              </select>
+            </div>
+            <div>
+              <label for="format" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Формат сотрудничества</label>
+              <select id="format" name="format" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream transition-colors appearance-none">
+                <option value="">Выберите формат...</option>
+                <option value="branding">Брендирование коробок</option>
+                <option value="wholesale">Оптовые поставки</option>
+                <option value="custom">Разработка под ключ</option>
+                <option value="unsure">Не определился(лась)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-5 mb-5">
+            <div>
+              <label for="contact" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Контактное лицо <span class="text-honey" aria-hidden="true">*</span></label>
+              <input type="text" id="contact" name="contact" required placeholder="Имя и должность" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream placeholder-brown/30 transition-colors"/>
+            </div>
+            <div>
+              <label for="phone" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Телефон / Telegram <span class="text-honey" aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream placeholder-brown/30 transition-colors"/>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <label for="email" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="company@example.ru" class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream placeholder-brown/30 transition-colors"/>
+          </div>
+
+          <div class="mb-7">
+            <label for="comment" class="font-nunito font-semibold text-brown text-sm mb-1.5 block">Комментарий / задача</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Расскажите о задаче: что дарим, когда нужно, есть ли особые пожелания..." class="form-field w-full border-2 border-honey/25 rounded-xl px-4 py-3 font-nunito text-sm text-brown bg-cream placeholder-brown/30 transition-colors resize-none"></textarea>
+          </div>
+
+          <p class="font-nunito text-xs text-brown/45 mb-6 leading-relaxed">
+            Нажимая «Отправить заявку», вы соглашаетесь с обработкой персональных данных в целях ответа на ваш запрос. Мы не передаём данные третьим лицам.
           </p>
-        </div>
 
-        <!-- Team -->
-        <div class="grid sm:grid-cols-3 gap-5 mb-14 stagger-children">
-          <div class="relative bg-gradient-to-br from-cream-dark to-honey/10 rounded-3xl p-6 border border-honey/15 card-hover text-center">
-            <div class="w-24 h-24 mx-auto mb-4 bg-cream rounded-2xl flex items-center justify-center shadow-sm">
-              <img src="image/kuznec.png" alt="Кузнец — мастер и основатель ЗАГАДКИНО" class="w-20 h-20 object-contain">
-            </div>
-            <h3 class="font-comfortaa font-bold text-brown text-lg mb-1">Кузнец</h3>
-            <p class="font-nunito text-xs text-honey-dark font-semibold uppercase tracking-wider mb-2">Мастер и основатель</p>
-            <p class="font-nunito text-sm text-brown/65 leading-relaxed">Собирает каждый набор с мыслью о том, кто его будет держать.</p>
-          </div>
-          <div class="relative bg-gradient-to-br from-cream-dark to-honey/10 rounded-3xl p-6 border border-honey/15 card-hover text-center">
-            <div class="w-24 h-24 mx-auto mb-4 bg-cream rounded-2xl flex items-center justify-center shadow-sm">
-              <img src="image/Mila.png" alt="Мила — художник ЗАГАДКИНО" class="w-20 h-20 object-contain">
-            </div>
-            <h3 class="font-comfortaa font-bold text-brown text-lg mb-1">Мила</h3>
-            <p class="font-nunito text-xs text-honey-dark font-semibold uppercase tracking-wider mb-2">Художник и упаковщик</p>
-            <p class="font-nunito text-sm text-brown/65 leading-relaxed">Создаёт дизайн и наполняет каждую коробку вниманием к деталям.</p>
-          </div>
-          <div class="relative bg-gradient-to-br from-cream-dark to-honey/10 rounded-3xl p-6 border border-honey/15 card-hover text-center">
-            <div class="w-24 h-24 mx-auto mb-4 bg-cream rounded-2xl flex items-center justify-center shadow-sm">
-              <img src="image/Ilya.png" alt="Илья — тестировщик ЗАГАДКИНО" class="w-20 h-20 object-contain">
-            </div>
-            <h3 class="font-comfortaa font-bold text-brown text-lg mb-1">Илья</h3>
-            <p class="font-nunito text-xs text-honey-dark font-semibold uppercase tracking-wider mb-2">Технолог и тестировщик</p>
-            <p class="font-nunito text-sm text-brown/65 leading-relaxed">Если Илья решил — сложность выверена точно.</p>
+          <button type="submit" class="w-full bg-honey text-cream font-semibold font-nunito py-4 rounded-full text-base hover:bg-honey-dark transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed disabled:translate-y-0">
+            Отправить заявку
+          </button>
+        </form>
+
+        <div class="mt-8 text-center fade-in">
+          <p class="font-nunito text-sm text-brown/55 mb-3">Или напишите напрямую:</p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="https://vk.com/zagadkino_golovolomki" class="inline-flex items-center gap-2 font-nunito text-sm font-semibold text-brown hover:text-honey transition-colors">
+              <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current flex-shrink-0"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.049-1.714-1.033-1.01-1.49-.969-1.49.287v1.427c0 .397-.126.634-1.16.634-1.712 0-3.614-1.037-4.953-2.968C6.157 12.52 5.5 10.22 5.5 9.996c0-.225.177-.347.471-.347h1.746c.35 0 .48.152.615.508.672 1.966 1.8 3.686 2.266 3.686.175 0 .254-.08.254-.518V10.79c-.066-1.043-.609-1.135-.609-1.505 0-.177.142-.35.37-.35h2.752c.297 0 .403.152.403.508v2.724c0 .3.127.404.211.404.175 0 .32-.104.64-.428 1-1.111 1.71-2.818 1.71-2.818.094-.201.254-.39.603-.39h1.746c.524 0 .638.269.524.633-.22.807-2.337 4.002-2.337 4.002-.184.3-.252.437 0 .77.186.25.793.77 1.2 1.237.74.838 1.31 1.545 1.461 2.033.15.481-.09.726-.566.726z"/></svg>
+              ВКонтакте
+            </a>
+            <a href="https://t.me/golovolomki_shop" class="inline-flex items-center gap-2 font-nunito text-sm font-semibold text-brown hover:text-honey transition-colors">
+              <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current flex-shrink-0"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.008 9.457c-.147.658-.538.818-1.09.508l-3-2.21-1.447 1.393c-.16.16-.295.295-.606.295l.214-3.053 5.56-5.023c.242-.214-.053-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.2-.658-.643.136-.953l11.566-4.461c.535-.194 1.003.13.881.765z"/></svg>
+              Telegram
+            </a>
           </div>
         </div>
-
-        <!-- Values full-width -->
-        <div class="bg-brown rounded-3xl p-8 md:p-12 fade-in relative overflow-hidden">
-          <div class="absolute inset-0 opacity-[0.04] pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;" aria-hidden="true"></div>
-          <h3 class="font-comfortaa text-2xl md:text-3xl font-bold mb-8 text-honey text-center relative z-10">Наши ценности</h3>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-            <div class="flex flex-col items-center text-center gap-3">
-              <div class="w-14 h-14 rounded-2xl bg-honey/20 flex items-center justify-center text-2xl flex-shrink-0">🌿</div>
-              <div>
-                <h4 class="font-comfortaa font-semibold text-honey-light mb-1">Натуральность</h4>
-                <p class="font-nunito text-sm text-cream/70 leading-relaxed">Стальные головоломки в деревянных коробках из сертифицированной древесины. Безопасно для детей.</p>
-              </div>
-            </div>
-            <div class="flex flex-col items-center text-center gap-3">
-              <div class="w-14 h-14 rounded-2xl bg-honey/20 flex items-center justify-center text-2xl flex-shrink-0">🧠</div>
-              <div>
-                <h4 class="font-comfortaa font-semibold text-honey-light mb-1">Развитие ума</h4>
-                <p class="font-nunito text-sm text-cream/70 leading-relaxed">Каждая головоломка тренирует логику, терпение и пространственное мышление.</p>
-              </div>
-            </div>
-            <div class="flex flex-col items-center text-center gap-3">
-              <div class="w-14 h-14 rounded-2xl bg-honey/20 flex items-center justify-center text-2xl flex-shrink-0">❤️</div>
-              <div>
-                <h4 class="font-comfortaa font-semibold text-honey-light mb-1">Семейные моменты</h4>
-                <p class="font-nunito text-sm text-cream/70 leading-relaxed">Загадкино объединяет поколения. Решайте вместе — радуйтесь вместе.</p>
-              </div>
-            </div>
-            <div class="flex flex-col items-center text-center gap-3">
-              <div class="w-14 h-14 rounded-2xl bg-honey/20 flex items-center justify-center text-2xl flex-shrink-0">✂️</div>
-              <div>
-                <h4 class="font-comfortaa font-semibold text-honey-light mb-1">Ручная работа</h4>
-                <p class="font-nunito text-sm text-cream/70 leading-relaxed">Каждое изделие проходит ручную обработку и проверку качества в нашей мастерской.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== VILLAGE PANORAMA ===== -->
-    <section class="relative overflow-hidden" style="height:320px">
-      <img src="image/zderevnya.png" alt="Деревня мастеров" class="absolute inset-0 w-full h-full object-cover" style="object-position:center 55%">
-      <div class="absolute inset-0 bg-gradient-to-b from-cream/30 via-transparent to-brown/55 flex items-end justify-center pb-8">
-        <p class="font-comfortaa text-cream text-2xl sm:text-3xl font-bold drop-shadow-lg tracking-wide text-center">Добро пожаловать в Деревню мастеров</p>
-      </div>
-    </section>
-
-    <!-- ===== B2B BANNER ===== -->
-    <section class="py-16 sm:py-20 bg-gradient-to-br from-brown via-brown to-brown-light overflow-hidden relative">
-      <div class="absolute inset-0 pointer-events-none" style="background-image:url('image/pattern.png');background-size:340px;background-repeat:repeat;filter:invert(1);opacity:0.08;" aria-hidden="true"></div>
-
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10 fade-in">
-        <p class="font-comfortaa text-honey text-xs font-semibold tracking-[0.2em] uppercase mb-4">Для бизнеса</p>
-        <h2 class="font-comfortaa text-3xl sm:text-4xl md:text-5xl font-bold text-cream mb-5 leading-tight">
-          Сделаем коробку<br>с вашим логотипом
-        </h2>
-        <p class="font-nunito text-cream/75 max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
-          Брендированные наборы с лазерной гравировкой вашего логотипа на деревянной коробке.
-          Три варианта нанесения, от 100 штук, доставка по всей России.
-        </p>
-
-        <!-- Quick stats -->
-        <div class="flex flex-wrap justify-center gap-8 mb-10">
-          <div>
-            <p class="font-comfortaa text-3xl font-bold text-honey">от 100 шт</p>
-            <p class="font-nunito text-cream/55 text-sm mt-0.5">минимальный тираж</p>
-          </div>
-          <div class="border-l border-cream/15 pl-8">
-            <p class="font-comfortaa text-3xl font-bold text-honey">14 дней</p>
-            <p class="font-nunito text-cream/55 text-sm mt-0.5">срок производства</p>
-          </div>
-          <div class="border-l border-cream/15 pl-8">
-            <p class="font-comfortaa text-3xl font-bold text-honey">100%</p>
-            <p class="font-nunito text-cream/55 text-sm mt-0.5">ваш брендинг</p>
-          </div>
-        </div>
-
-        <a href="b2b.html" class="inline-flex items-center gap-2 bg-honey text-cream font-semibold font-nunito px-8 py-4 rounded-full text-lg hover:bg-honey-dark transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
-          Узнать об оптовых условиях
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-          </svg>
-        </a>
       </div>
     </section>
 
@@ -484,24 +581,20 @@
             <img src="image/text-zagadkino.png" alt="ЗАГАДКИНО" class="h-8 object-contain">
           </div>
           <p class="font-nunito text-sm text-cream/60 leading-relaxed">
-            Кузница мышления. Металлические головоломки в деревянных коробках.
+            Производство металлических головоломок в деревянных коробках. Оптовые поставки и брендирование для бизнеса.
           </p>
         </div>
         <div>
           <h2 class="font-comfortaa font-semibold text-honey mb-3 text-sm uppercase tracking-wider">Навигация</h2>
           <ul class="font-nunito text-sm space-y-2 text-cream/65">
-            <li><a href="#collection" class="hover:text-honey transition-colors">Коллекция</a></li>
-            <li><a href="#about" class="hover:text-honey transition-colors">О нас</a></li>
-            <li><a href="b2b.html" class="hover:text-honey transition-colors">Для бизнеса</a></li>
+            <li><a href="#sets" class="hover:text-honey transition-colors">Наши наборы</a></li>
+            <li><a href="#branding" class="hover:text-honey transition-colors">Брендирование</a></li>
+            <li><a href="about.html" class="hover:text-honey transition-colors">О нас</a></li>
+            <li><a href="#form" class="hover:text-honey transition-colors">Оставить заявку</a></li>
           </ul>
         </div>
         <div>
-          <h2 class="font-comfortaa font-semibold text-honey mb-3 text-sm uppercase tracking-wider">Маркетплейсы</h2>
-          <ul class="font-nunito text-sm space-y-2 text-cream/65">
-            <li><a href="#" class="hover:text-honey transition-colors">Ozon</a></li>
-            <li><a href="#" class="hover:text-honey transition-colors">Wildberries</a></li>
-          </ul>
-          <h2 class="font-comfortaa font-semibold text-honey mb-3 text-sm uppercase tracking-wider mt-5">Соцсети</h2>
+          <h2 class="font-comfortaa font-semibold text-honey mb-3 text-sm uppercase tracking-wider">Контакты</h2>
           <ul class="font-nunito text-sm space-y-2 text-cream/65">
             <li>
               <a href="https://vk.com/zagadkino_golovolomki" class="hover:text-honey transition-colors inline-flex items-center gap-2">
@@ -516,6 +609,11 @@
               </a>
             </li>
           </ul>
+          <h2 class="font-comfortaa font-semibold text-honey mb-3 text-sm uppercase tracking-wider mt-5">Маркетплейсы</h2>
+          <ul class="font-nunito text-sm space-y-2 text-cream/65">
+            <li><a href="#" class="hover:text-honey transition-colors">Ozon</a></li>
+            <li><a href="#" class="hover:text-honey transition-colors">Wildberries</a></li>
+          </ul>
         </div>
       </div>
       <div class="border-t border-cream/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-cream/35 font-nunito">
@@ -524,60 +622,6 @@
       </div>
     </div>
   </footer>
-
-
-  <!-- ===== SOLUTIONS MODAL ===== -->
-  <div id="solutions-modal" class="solutions-modal" role="dialog" aria-modal="true" aria-label="Решения головоломок" hidden>
-    <!-- Overlay -->
-    <div class="solutions-overlay" id="solutions-overlay"></div>
-
-    <!-- Panel -->
-    <div class="solutions-panel">
-
-      <!-- Panel header -->
-      <div class="solutions-header">
-        <div class="flex items-center gap-3">
-          <img src="image/uzlik.png" alt="" class="w-10 h-10 object-contain" aria-hidden="true">
-          <div>
-            <h2 class="font-comfortaa font-bold text-honey text-xl leading-tight">Секреты головоломок</h2>
-            <p class="font-nunito text-cream/60 text-xs">59 видеорешений от Узлика</p>
-          </div>
-        </div>
-        <button id="solutions-close" class="w-9 h-9 flex items-center justify-center rounded-full bg-cream/10 hover:bg-cream/20 transition-colors text-cream" aria-label="Закрыть">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Grid view -->
-      <div id="solutions-grid-view" class="solutions-body">
-        <p class="font-nunito text-cream/50 text-sm text-center mb-5">Выбери головоломку — узнай, как её решить</p>
-        <div class="solutions-grid" id="solutions-grid">
-          <!-- Cards injected by JS -->
-        </div>
-      </div>
-
-      <!-- Video view -->
-      <div id="solutions-video-view" class="solutions-body" hidden>
-        <button id="solutions-back" class="flex items-center gap-2 font-nunito text-sm text-honey hover:text-honey-light transition-colors mb-5">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-          </svg>
-          Все головоломки
-        </button>
-        <div class="flex flex-col items-center gap-4">
-          <div class="solutions-video-player" id="solutions-video-player">
-            <!-- iframe injected by JS -->
-          </div>
-          <p id="solutions-video-title" class="font-comfortaa font-bold text-honey text-lg text-center"></p>
-          <p id="solutions-video-hint" class="font-nunito text-cream/50 text-sm text-center">Смотри внимательно — попробуй сам!</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
 
   <script src="assets/js/main.js"></script>
 </body>
